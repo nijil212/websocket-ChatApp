@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-f5ic)#q6s)58zx52_l%3bar(j2ghi$rzq+1fc#h)8v_bt6ztj0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [websocket-chatapp-1.onrender.com]
 
 
 # Application definition
