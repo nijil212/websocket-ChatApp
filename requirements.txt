@@ -1,0 +1,14 @@
+# Django and Channels dependencies
+django>=4.2,<5.0
+channels>=4.0.0
+daphne>=4.0.0
+
+# Redis for Channel Layers (optional but recommended)
+channels-redis>=4.1.0
+
+# Other common dependencies (adjust as needed)
+asgiref>=3.6.0
+python-dotenv>=1.0.0
+
+# For production (optional)
+gunicorn>=21.0.0
